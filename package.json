@@ -1,0 +1,34 @@
+{
+  "name": "epps-labenu-system5",
+  "version": "1.0.0",
+  "author": "raiza-leal-epps",
+  "description": "Você estuda na Labenu_ há tanto tempo que já parecem anos, não é? Então, hoje, vamos pedir para criar um sistema que represente o básico da nossa organização.",
+  "main": "index.js",       
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/future4code/epps-labenu-system5.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/future4code/epps-labenu-system5/issues"
+  },
+  "homepage": "https://github.com/future4code/epps-labenu-system5#readme",
+  "dependencies": {
+    "@types/cors": "^2.8.10",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.11",
+    "@types/knex": "^0.16.1",
+    "@types/mysql": "^2.15.18",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1",
+    "typescript": "^4.2.3"
+  }
+}
